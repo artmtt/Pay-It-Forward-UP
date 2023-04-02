@@ -1,0 +1,20 @@
+:root {
+    --default_purple: #975ab6;
+    --dark_mode_color: #0e0c13;
+    --grey_common: #535353;
+}
+
+body{
+    background-color: var(--dark_mode_color);
+    color: white;
+    font-family: courier;
+    text-align: center;
+}
+
+.title-1 {
+    color: var(--default_purple);
+}
+
+.title-1 {
+    margin: 1rem;
+}

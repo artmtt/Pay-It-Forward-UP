@@ -1,0 +1,48 @@
+:root {
+    --default_purple: #975ab6;
+    --dark_mode_color: #0e0c13;
+    --grey_common: #535353;
+}
+
+body{
+    background-color: var(--dark_mode_color);
+    color: white;
+    font-family: courier;
+    display: grid;
+    text-align: center;
+}
+.form-check-input{
+    position: absolute;
+    color: white;
+    font-size: 120%;
+    left: 90%;
+}
+.boton{
+    background-color: var(--default_purple);
+    margin: 1rem;
+    color: white;
+    font-size: 150%;
+}
+
+.boton:hover {
+    color: white;
+}
+
+.sub_title{
+    font-weight: 700;
+    color: var(--default_purple);
+}
+.titulo{
+    font-weight: 600;
+    margin: 1rem;
+    border-bottom: 2px solid var(--default_purple);
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn-danger {
+    font-size: 150%;
+    margin: 1rem;
+}

@@ -1,0 +1,70 @@
+:root {
+    --default_purple: #975ab6;
+    --dark_mode_color: #0e0c13;
+    --grey_common: #535353;
+}
+
+body{
+    background-color: var(--dark_mode_color);
+    color: white;
+    font-family: courier;
+    display: grid;
+    text-align: center;
+    margin: 1rem;
+}
+
+.main-container {
+    width: min(700px, 100%);
+}
+
+.form-check-input{
+    position: absolute;
+    color: white;
+    font-size: 120%;
+    left: 90%;
+}
+
+.hide {
+    display: none;
+}
+
+.bad-input-span {
+    margin-top: 1rem;
+    color: #B51114;
+}
+
+.boton{
+    background-color: var(--default_purple);
+    color: white;
+    font-size: 150%;
+    margin: 1rem;
+}
+
+.boton:hover {
+    color: white;
+}
+
+.sub_title{
+    font-weight: 700;
+}
+.titulo{
+    font-weight: 700;
+    padding: 1rem;
+    color: var(--default_purple);
+}
+.precio{
+    font-size: 120%;
+}
+.total{
+    font-size: 120%;
+}
+
+/*boots add class*/
+.row {
+    margin: 1rem;
+}
+
+.btn-danger {
+    font-size: 150%;
+    margin: 1rem;
+}

@@ -1,0 +1,100 @@
+:root {
+    --default_purple: #975ab6;
+    --dark_mode_color: #0e0c13;
+    --grey_common: #535353;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark_mode_color);
+    color: white;
+}
+
+body {
+    background-color: var(--dark_mode_color);;
+    padding: 0.5rem;
+}
+
+.short-stock-name, .company-name, .stock-curr-price {
+    font-weight: 700;
+}
+
+.short-stock-name {
+    margin-bottom: 1rem;
+}
+
+.company-name {
+    margin-bottom: 0.3rem;
+}
+
+.stock-curr-price {
+    color: white;
+}
+
+.stock-percentages {
+    color: var(--default_purple);
+    font-size: 1.1rem;
+}
+
+.stock-stats {
+    margin-top: 1rem;
+}
+
+.stats-section-title {
+    font-weight: 700;
+}
+
+.stat-title {
+    color: #535353;
+    font-weight: 700;
+}
+
+.buy-section {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.buy-button {
+    background-color: var(--default_purple);
+    color: white;
+    width: max(100px, 40%);
+    height: max(24px, 62%);
+    position: absolute;
+    right: 2rem;
+}
+
+.buy-button:hover {
+    color: white;
+}
+
+.today-volume {
+    font-weight: 600;
+    margin: 0;
+}
+
+.today-volume-cant {
+    margin: 0;
+    color: var(--grey_common)
+}
+
+.extra-space {
+    height: 90px;
+}
+
+/*Additional boots class modif*/
+.row {
+    padding: 0.5rem;
+}
+
+.col-5 {
+    border-bottom: 1px solid var(--grey_common);
+    overflow: hidden;
+}
+
+.btn-secondary {
+    float: right;
+}
